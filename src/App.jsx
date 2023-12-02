@@ -1,11 +1,10 @@
 import React from 'react'
-import Login from './features/identity/components/login'
+import { RouterProvider } from 'react-router-dom'
+import router from './router'
 
 const App = () => {
   return (
-    <div>
-      <Login />
-    </div>
+   <RouterProvider router = { router } />
   )
 }
 
